@@ -1,0 +1,36 @@
+/* Manette PS5 personnalisée avec dégradé noir et bleu turquoise */
+
+/* Fond général de la manette (corps) */
+body {
+    background: linear-gradient(to right, #000000, #00bcd4); /* Dégradé noir à bleu turquoise */
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/* Les boutons principaux */
+.button {
+    background: linear-gradient(to right, #000000, #00bcd4); /* Dégradé pour les boutons */
+    border: 2px solid #00bcd4;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Les joysticks */
+.joystick {
+    background: linear-gradient(to right, #000000, #00bcd4); /* Dégradé pour les joysticks */
+    border-radius: 50%;
+    border: 3px solid #00bcd4;
+}
+
+/* Les gâchettes et boutons supplémentaires */
+.trigger, .extra-button {
+    background: linear-gradient(to right, #000000, #00bcd4); /* Dégradé pour les gâchettes */
+    border-radius: 10px;
+    border: 2px solid #00bcd4;
+}
+
+/* Ombre portée autour de la manette */
+.manette-container {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
+}
